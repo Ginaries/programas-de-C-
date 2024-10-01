@@ -1,26 +1,16 @@
-﻿Auto BMW=new Auto("BMW", "M4", 2024,3);
-
-//esto lo tenemos que mandar al comando de alguna manera tenemos que poder manejarlo para no spamear tanto, de eso me voy a encargar yo si queres.
-//vos si queres hacete las clases a invocar de autobus y moto. aunque no se si hicimos moto. XD
-
-Console.WriteLine(BMW.MostrarEstado());
-Console.WriteLine(BMW.AbrirPuerta(1));
-Console.WriteLine(BMW.AbrirPuerta(5));
-Console.WriteLine(BMW.AbrirPuerta(3));
-Console.WriteLine(BMW.Acelerar());
-BMW.Encender();
-Console.WriteLine(BMW.MostrarEstado());
-Console.WriteLine(BMW.Acelerar());
-Console.WriteLine(BMW.Acelerar());
-Console.WriteLine(BMW.Acelerar());
-Console.WriteLine(BMW.Acelerar());
-Console.WriteLine(BMW.Desacelerar());
-Console.WriteLine(BMW.Desacelerar());
-Console.WriteLine(BMW.Desacelerar());
-Console.WriteLine(BMW.Desacelerar());
-
-
-
+﻿/*class Program{
+    
+    public static void Main(String[] args) {
+        Console.WriteLine("Bienvenido a Simulation Car");
+        while (true) {
+            Console.WriteLine("Elija una opcion para continuar");
+            ConsoleKey IngUser= Console.ReadKey().Key; 
+            Console.WriteLine($"{IngUser}");
+        }
+        
+    } ESTO DEJALO ACA, DESPUES LO SIGO. FIRMA ALEJANDRO <3
+ 
+}*/
  class Vehiculo
 {
     //propiedades o atributos:
