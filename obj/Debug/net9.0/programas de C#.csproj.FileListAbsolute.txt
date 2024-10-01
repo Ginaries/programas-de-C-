@@ -13,3 +13,18 @@ D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\refint\programas de C#.d
 D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.pdb
 D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.genruntimeconfig.cache
 D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\ref\programas de C#.dll
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\bin\Debug\net9.0\programas de C#.exe
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\bin\Debug\net9.0\programas de C#.deps.json
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\bin\Debug\net9.0\programas de C#.runtimeconfig.json
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\bin\Debug\net9.0\programas de C#.dll
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\bin\Debug\net9.0\programas de C#.pdb
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\programas de C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\programas de C#.AssemblyInfoInputs.cache
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\programas de C#.AssemblyInfo.cs
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\programas de C#.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\programas de C#.sourcelink.json
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\programas de C#.dll
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\refint\programas de C#.dll
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\programas de C#.pdb
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\programas de C#.genruntimeconfig.cache
+C:\Users\Alejandro\Desktop\reporsitorios\programas-de-C-\obj\Debug\net9.0\ref\programas de C#.dll

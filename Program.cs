@@ -1,5 +1,7 @@
 ﻿Auto BMW=new Auto("BMW", "M4", 2024,3);
 
+//esto lo tenemos que mandar al comando de alguna manera tenemos que poder manejarlo para no spamear tanto, de eso me voy a encargar yo si queres.
+//vos si queres hacete las clases a invocar de autobus y moto. aunque no se si hicimos moto. XD
 
 Console.WriteLine(BMW.MostrarEstado());
 Console.WriteLine(BMW.AbrirPuerta(1));
