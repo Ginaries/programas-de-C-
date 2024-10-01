@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ale\\programas de C#\\programas de C#.csproj": {}
+    "D:\\Ale\\programas de C#\\programas-de-C-\\programas de C#.csproj": {}
   },
   "projects": {
-    "D:\\Ale\\programas de C#\\programas de C#.csproj": {
+    "D:\\Ale\\programas de C#\\programas-de-C-\\programas de C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ale\\programas de C#\\programas de C#.csproj",
+        "projectUniqueName": "D:\\Ale\\programas de C#\\programas-de-C-\\programas de C#.csproj",
         "projectName": "programas de C#",
-        "projectPath": "D:\\Ale\\programas de C#\\programas de C#.csproj",
+        "projectPath": "D:\\Ale\\programas de C#\\programas-de-C-\\programas de C#.csproj",
         "packagesPath": "C:\\Users\\Alejandro\\.nuget\\packages\\",
-        "outputPath": "D:\\Ale\\programas de C#\\obj\\",
+        "outputPath": "D:\\Ale\\programas de C#\\programas-de-C-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config"

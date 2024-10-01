@@ -1,5 +1,7 @@
-﻿Vehiculo auto = new Vehiculo("BMW", "M4", 2024);
-Console.WriteLine(auto.MostrarEstado());
+﻿Auto BMW=new Auto("BMW", "M4", 2024,3);
+
+BMW.Encender();
+Console.WriteLine(BMW.MostrarEstado());
  
  class Vehiculo
 {
@@ -51,8 +53,17 @@ Console.WriteLine(auto.MostrarEstado());
         }
     }
 
-    public string MostrarEstado()
+    virtual public string MostrarEstado()
     {
-        return $"Marca:{Marca}\nModelo: {Modelo}\nAño: {Anio}\nVelocidad: {Velocidad}\n¿Está encendido?: {Contacto}"; 
+        return $"Marca:{Marca}\nModelo: {Modelo}\nAño: {Anio}\nVelocidad: {Velocidad}\n¿Está encendido?: {(Contacto? "SI":"NO")}"; 
+    }
+}
+class Auto:Vehiculo{
+    protected int? Puertas;
+    public Auto(string Marca, string Modelo, int Anio, int Puertas):base(Marca, Modelo, Anio){
+        this.Puertas = Puertas;
+    }
+    public override string MostrarEstado(){
+        return $"{base.MostrarEstado()}\nPuertas: {Puertas}";
     }
 }

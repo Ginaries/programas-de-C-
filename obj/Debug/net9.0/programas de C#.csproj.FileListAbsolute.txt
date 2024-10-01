@@ -1,0 +1,15 @@
+D:\Ale\programas de C#\programas-de-C-\bin\Debug\net9.0\programas de C#.exe
+D:\Ale\programas de C#\programas-de-C-\bin\Debug\net9.0\programas de C#.deps.json
+D:\Ale\programas de C#\programas-de-C-\bin\Debug\net9.0\programas de C#.runtimeconfig.json
+D:\Ale\programas de C#\programas-de-C-\bin\Debug\net9.0\programas de C#.dll
+D:\Ale\programas de C#\programas-de-C-\bin\Debug\net9.0\programas de C#.pdb
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.AssemblyInfoInputs.cache
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.AssemblyInfo.cs
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.csproj.CoreCompileInputs.cache
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.sourcelink.json
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.dll
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\refint\programas de C#.dll
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.pdb
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\programas de C#.genruntimeconfig.cache
+D:\Ale\programas de C#\programas-de-C-\obj\Debug\net9.0\ref\programas de C#.dll
