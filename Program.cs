@@ -1,8 +1,24 @@
 ﻿Auto BMW=new Auto("BMW", "M4", 2024,3);
 
+
+Console.WriteLine(BMW.MostrarEstado());
+Console.WriteLine(BMW.AbrirPuerta(1));
+Console.WriteLine(BMW.AbrirPuerta(5));
+Console.WriteLine(BMW.AbrirPuerta(3));
+Console.WriteLine(BMW.Acelerar());
 BMW.Encender();
 Console.WriteLine(BMW.MostrarEstado());
- 
+Console.WriteLine(BMW.Acelerar());
+Console.WriteLine(BMW.Acelerar());
+Console.WriteLine(BMW.Acelerar());
+Console.WriteLine(BMW.Acelerar());
+Console.WriteLine(BMW.Desacelerar());
+Console.WriteLine(BMW.Desacelerar());
+Console.WriteLine(BMW.Desacelerar());
+Console.WriteLine(BMW.Desacelerar());
+
+
+
  class Vehiculo
 {
     //propiedades o atributos:
@@ -12,6 +28,7 @@ Console.WriteLine(BMW.MostrarEstado());
     protected int? Anio;
     protected int? Velocidad = 0;
     protected bool Contacto = false;
+    protected bool Encendido=false;
     //Metodos:
 
     public Vehiculo(string Marca, string Modelo, int Anio){  //Constructor
@@ -21,9 +38,10 @@ Console.WriteLine(BMW.MostrarEstado());
     }
 
     
-    public string Encender()
+    virtual public string Encender()
     {   
         Contacto = true;
+        Encendido=true;
         return "El vehículo esta encendio";
     }
 
@@ -32,14 +50,29 @@ Console.WriteLine(BMW.MostrarEstado());
         Contacto = false;
         return "El vehículo se apagó correctamente.";
     }
-    public void Acelerar()
+    public string Acelerar()
     {
-        Velocidad = Velocidad +1;
+        if (Encendido == true){
+            Velocidad = Velocidad +7;
+            return $"Velocidad Actual: {Velocidad}";
+        }
+        else{
+            return "No puedes Acelerar si no enciendes el auto";
+        }
     }
 
-    public void Desacelerar()
+    public string Desacelerar()
     {
-        Velocidad = Velocidad -1;
+        if (Velocidad>0){
+            Velocidad = Velocidad -5;
+            if (Velocidad<=10){
+                return $"vas a {Velocidad} y por lo tanto: {this.Detener()}";
+            }
+            else{
+                return "El auto va muy rapido y no puede detenerse";
+            }
+        }
+        else return "El auto no esta en movimiento";
     }
 
     public string Detener()
@@ -49,7 +82,7 @@ Console.WriteLine(BMW.MostrarEstado());
             return "El vehículo se detuvo";
         }
         else{
-            return "El vehículo se rompio todo";
+            return "Aun No puede detenerse";
         }
     }
 
@@ -67,16 +100,20 @@ class Auto:Vehiculo{
         return $"{base.MostrarEstado()}\nPuertas: {Puertas}";
     }
     public string AbrirPuerta(int Puerta){
-       case Puerta==1{
-          return "Puerta del Conductor Abierta"
-       }
-     
-       case Puerta==2{
-          return "Puerta del Acompañante Abierta"
-       }
-     
-       case Puerta==1{
-          return "Puerta del Cofre Abierta"
-       }
+        switch (Puerta){
+            case 1 :
+                return "Puerta del Conductor Abierta.";
+            case 2 :
+                return "Puerta del Acompañante Abierta.";
+            case 3 :
+                return "Puerta del Cofre Abierta.";
+            default:
+                 return "Estas haciendo algo mal.";
+       
+    }
+    }
+    public override string Encender()
+    {
+        return "Todas las puertas se cerraron, "+base.Encender();
     }
 }
