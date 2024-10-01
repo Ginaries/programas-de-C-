@@ -66,4 +66,17 @@ class Auto:Vehiculo{
     public override string MostrarEstado(){
         return $"{base.MostrarEstado()}\nPuertas: {Puertas}";
     }
+    public string AbrirPuerta(int Puerta){
+       case Puerta==1{
+          return "Puerta del Conductor Abierta"
+       }
+     
+       case Puerta==2{
+          return "Puerta del Acompañante Abierta"
+       }
+     
+       case Puerta==1{
+          return "Puerta del Cofre Abierta"
+       }
+    }
 }
