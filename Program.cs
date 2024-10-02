@@ -1,16 +1,51 @@
-﻿/*class Program{
-    
+﻿using System.Security.Cryptography.X509Certificates;
+
+class Program{   
     public static void Main(String[] args) {
+        
+
         Console.WriteLine("Bienvenido a Simulation Car");
+
         while (true) {
-            Console.WriteLine("Elija una opcion para continuar");
-            ConsoleKey IngUser= Console.ReadKey().Key; 
-            Console.WriteLine($"{IngUser}");
+            Console.WriteLine($"Elija una opcion para continuar\n1.Crear Auto");
+            Console.Write($"\nLa opcion elegida es: ");
+            ConsoleKey IngUser= Console.ReadKey().Key;Console.WriteLine(); 
+            switch (IngUser) {
+                case ConsoleKey.D1:
+                    Console.WriteLine(">has elegido la opcion 1");
+                    break;
+                case ConsoleKey.D2:
+                    Console.WriteLine(">Esta Saliendo del simulador");
+                    break;
+                default:
+                    Console.WriteLine(">!!Opcion no valida!!<");
+                    break;
+            }
+            if (IngUser == ConsoleKey.D2){
+                break;
+            }
         }
         
-    } ESTO DEJALO ACA, DESPUES LO SIGO. FIRMA ALEJANDRO <3
+    } //ESTO DEJALO ACA, DESPUES LO SIGO. FIRMA ALEJANDRO <3
  
-}*/
+}
+class Gestor{
+    private string? Marca;
+    private string? Modelo;
+    private int? Precio;
+
+    public Gestor(){
+        this.Marca = Console.ReadLine();
+        this.Modelo = Console.ReadLine();
+        if (Marca=="BMW"||Marca=="Audi"){
+            Random aleatorio = new Random();
+            int price=aleatorio.Next(150000,350000);
+            this.Precio=price;
+        }
+    }   
+
+}
+
  class Vehiculo
 {
     //propiedades o atributos:
